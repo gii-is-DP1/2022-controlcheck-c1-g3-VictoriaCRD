@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.samples.petclinic.recoveryroom.RecoveryRoomService;
 import org.springframework.format.Formatter;
 import org.springframework.stereotype.Component;
 
