@@ -15,4 +15,5 @@ public interface RecoveryRoomRepository  extends CrudRepository<RecoveryRoom, In
     List<RecoveryRoomType> findAllRecoveryRoomTypes();
     @Query("SELECT rrt FROM RecoveryRoomType rrt WHERE rrt.name = :name")
     RecoveryRoomType getRecoveryRoomType(String name);
+    // Espero que se suba
 }
